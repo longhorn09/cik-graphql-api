@@ -1,0 +1,33 @@
+{
+  "name": "cik-graphql-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "main backend that interacts with mysql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longhorn09/cik-graphql-api.git"
+  },
+  "author": "Norman Tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longhorn09/cik-graphql-api/issues"
+  },
+  "homepage": "https://github.com/longhorn09/cik-graphql-api#readme",
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "fastify": "^5.4.0",
+    "mercurius": "^16.2.0",
+    "mysql2": "^3.6.5",
+    "graphql": "^16.8.1",
+    "pino-pretty": "^10.2.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
